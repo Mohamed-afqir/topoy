@@ -878,9 +878,9 @@ var layerControl = L.control
         position: 'bottomright',
     })
     .addTo(map);
-layerControl.addBaseLayer(googleHybrid, 'Google Hybrid');
-layerControl.addBaseLayer(googleStreets, 'Google Streets');
 
+layerControl.addBaseLayer(googleStreets, 'Google Streets');
+layerControl.addBaseLayer(googleHybrid, 'Google Hybrid');
 
 
 var morLayer = L.geoJSON(morocco);
